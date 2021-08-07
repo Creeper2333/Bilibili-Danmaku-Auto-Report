@@ -40,4 +40,5 @@
  Older version: [link](https://github.com/Creeper2333/Bilibili-Danmaku-Search-Uid)
 
 ![蒙古上单](https://user-images.githubusercontent.com/52315359/128585311-62d13a2f-efc2-4ed6-99ce-0264274a28f4.png)
+
 _b站或许会倒闭，但蒙古上单精神会永远存在。_
