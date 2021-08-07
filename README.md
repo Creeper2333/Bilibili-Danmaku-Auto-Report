@@ -42,4 +42,4 @@
 
  Using MIT license.
  
- Older version: [link](https://github.com/Creeper2333/Bilibili-Danmaku-Search-Uid)
+ Older version: [link](https://github.com/Creeper2333/Bilibili-Danmaku-Search-Uid)  PS:disabled.
