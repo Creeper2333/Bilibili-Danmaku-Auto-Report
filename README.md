@@ -1,6 +1,6 @@
 # Bilibili-Danmaku-Auto-Report
  ## Usage
- report specific danmaku automatically
+ report a specific kind of danmaku automatically
 
  ## How to use
  1. install all the requirements with `requirements.txt`
