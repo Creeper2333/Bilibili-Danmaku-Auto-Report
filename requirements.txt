@@ -1,0 +1,6 @@
+requests
+xlwt
+xmltodict
+MyQR
+bs4
+Pillow
