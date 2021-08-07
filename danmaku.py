@@ -26,7 +26,7 @@ if __name__ == '__main__':
     else:
         try:
             SESSDATA=input('SESSDATA:')
-            bili_jct=input('bili_jct')
+            bili_jct=input('bili_jct:')
             bvid=input('bv号')
             cid=GetCid(bvid)
         except:
