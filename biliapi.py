@@ -4,6 +4,7 @@ import re
 import json
 import sys
 import xlwt
+import codem
 import time
 import datetime
 import xmltodict
@@ -116,7 +117,7 @@ def Check(source):
         else:
             return True
     except:
-        rule_f=open('rule.txt','r')
+        rule_f=codem.open('rule.txt','r',encoding='UTF-8')
         rule=rule_f.readline()
         rule_f.close()
         result=re.search(rule,source)
