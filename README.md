@@ -2,7 +2,7 @@
 <p align="center">
     <img src="https://user-images.githubusercontent.com/52315359/128585311-62d13a2f-efc2-4ed6-99ce-0264274a28f4.png" width="200" height="200">
 </p>
-<h4 align="center" style="italic">b站或许会倒闭，但蒙古上单精神会永远存在。</h4>
+<h4 align="center" style="italic">b站或许会倒闭，但_________。</h4>
 
  ## Usage
  report a specific kind of danmaku automatically
