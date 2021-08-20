@@ -25,7 +25,7 @@
  ```
  it will be reported by the program automatically.
 
- \* supports regex expression!!
+ \* supports regex expression!!（这™不是废话吗这玩意就是依靠正则工作的啊这
 
  ## Notes:
  If a danmaku matches the rule, the program can find who sent 
