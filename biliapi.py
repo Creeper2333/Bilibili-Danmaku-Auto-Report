@@ -4,7 +4,6 @@ import re
 import json
 import sys
 import xlwt
-import codem
 import time
 import datetime
 import xmltodict
