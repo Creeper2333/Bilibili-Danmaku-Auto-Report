@@ -11,6 +11,7 @@ from tkinter import *
 from MyQR import myqr
 from bs4 import BeautifulSoup
 from PIL import Image, ImageTk
+import codecs
 
 #bilibili options
 def GetUsrLv(uid,sessdata):
@@ -109,18 +110,18 @@ def Check(source):
     num=0
     try:
         num=int(source)
-        if(re.match('233',str(num)).span()!=None):#str(num).replace('233','')==source
+        if('233' not in num):#str(num).replace('233','')==source
             return True
         elif(num%6 != 0):
-            return False
-        else:
             return True
+        else:
+            return False
     except:
-        rule_f=codem.open('rule.txt','r',encoding='UTF-8')
+        rule_f=codecs.open('rule.txt','r',encoding='utf-8')
         rule=rule_f.readline()
         rule_f.close()
-        result=re.search(rule,source)
-        if(result.span()!=None):
+        result=re.findall(rule,source)
+        if(len(result)!=0):
             return True
         else:
             return False
